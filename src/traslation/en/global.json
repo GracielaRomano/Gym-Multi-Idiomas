@@ -1,0 +1,72 @@
+{
+    "header": {
+        "home": "Home",
+        "programs": "Programs",
+        "why-us": "Why Us",
+        "plans": "Plans",
+        "testimonials": "Testimonials"
+    },
+    "hero":{
+        "title": "the best fitnes club in the town",
+        "title2": "Shape",
+        "title3": "Your",
+        "title4": "Ideal Body",
+        "content": "In here we will help you to shape and build your ideal body and live up your life to fullest",
+        "items1": "expert coachs",
+        "items2": "MEMBERS JOINED",
+        "items3": "FITNESS PROGRAMS",
+        "buttons1": "Get Started",
+        "buttons2": "Learn More",
+        "buttons3": "Join Now",
+        "heart": "Heart Rate",
+        "beat": "116 bpm",
+        "calories": "Calories Burned"
+    },
+    "join":{
+        "title1": "READY TO",
+        "title2": "LEVEL UP",
+        "title3": "YOUR BODY",
+        "title4": "WITH US?",
+        "email": "Enter you email",
+        "button": "Join Now"
+    },
+    "plans":{
+        "title1": "READY TO START",
+        "title2": "YOUR JOURNEY",
+        "title3": "NOW WITHUS",
+        "name_1": "BASIC PLAN",
+        "name_2": "PREMIUM PLAN",
+        "name_3": "PRO PLAN",
+        "features_1": {
+            "1": "2 hours of excercises",
+            "2": "Free consultaion to coaches",
+            "3": "Access to The Community"
+        },
+        "features_2":{
+            "1":"5 hour of excercises",
+            "2":"Free consultaion of Coaches",
+            "3":"Accessto minibar"
+        },
+        "features_3":{
+            "1":"8 hours of excercises",
+            "2":"Consultation of Private Coach",
+            "3":"Free Fitness Merchandises"
+        },
+        "benefits": "See more benefits ->",
+        "button":"Join Now"
+    },
+    "programs": {
+        "heading_1": "Strength Training",
+        "heading_2": "Cardio Training",
+        "heading_3": "Fat Burning",
+        "heading_4": "Health Fitness",
+        "details_1":"In this program, you are trained to improve your strength through many exercises.",
+        "details_2":"In this program, you are trained to do sequential moves in range of 20 until 30 minutes.",
+        "details_3":"This program is suitable for you who wants to get rid of your fat and lose their weight.",
+        "details_4":"This programs is designed for those who exercises only for their body fitness not body building.",
+        "title_1": "Explore our",
+        "title_2": "programs",
+        "title_3": "to shape you",
+        "button": "Join Now"
+    }
+}

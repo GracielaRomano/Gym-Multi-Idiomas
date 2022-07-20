@@ -1,0 +1,75 @@
+{
+    "header": {
+        "home": "Inicio",
+        "programs": "Programas",
+        "why-us": "Porque Nosotros",
+        "plans": "Planes",
+        "testimonials": "Testimonios"
+    },
+    "hero":{
+        "title": "el mejor gimnasio de la ciudad",
+        "title2": "Moldea",
+        "title3": "Tu",
+        "title4": "Cuerpo Ideal",
+        "content": "Aquí te ayudaremos a moldear y construir tu cuerpo ideal y vivir tu vida al máximo.",
+        "items1": "entrenadores expertos",
+        "items2": "MIEMBROS",
+        "items3": "PROGRAMAS DE ENTRENAMIENTO",
+        "buttons1": "Empezar",
+        "buttons2": "Aprende más",
+        "buttons3": "Únete ahora",
+        "heart": "Ritmo cardiaco",
+        "beat": "116 lpm",
+        "calories": "Calorías Quemadas"
+    },
+    "join":{
+        "title1": "LISTO PARA",
+        "title2": "SUBIR DE NIVEL",
+        "title3": "TU CUERPO",
+        "title4": "CON NOSOTROS?",
+        "email": "Ingrese su correo electronico",
+        "button": "Unete Ahora"
+    },
+
+    "plans":{
+        "title1": "LISTO PARA EMPEZAR",
+        "title2": "TU VIAJE",
+        "title3": "CON NOSOTROS AHORA",
+        "name_1": "PLAN BASICO",
+        "name_2": "PLAN PREMIUM ",
+        "name_3": "PLAN PROFESIONAL",
+        "features_1": {
+            "1": "2 horas de ejercicios",
+            "2": "Consulta gratuita a entrenadores",
+            "3": "Acceso a la comunidad"
+            },
+        "features_2":{
+            "1":"5 horas de ejercicios",
+             "2":"Consulta gratuita de Entrenadores",
+             "3":"Acceso al minibar"
+        },
+        "features_3":{
+            "1":"8 horas de ejercicios",
+            "2":"Consulta de Entrenador Privado",
+            "3":"Mercancías de fitness gratuitas"
+        },
+        "benefits": "Ver más beneficios ->",
+        "button":"Únete Ahora"
+
+    },
+
+    "programs": {
+        "heading_1": "Entrenamiento de Fuerza",
+        "heading_2": "Entrenamiento de Cardio",
+        "heading_3": "Quema Grasas",
+        "heading_4": "Fitness Salud",
+        "details_1":"En este programa, se le entrena para mejorar su fuerza a través de muchos ejercicios.",
+        "details_2":"En este programa, va a  realizar movimientos secuenciales en un rango de 20 a 30 minutos..",
+        "details_3":"Este programa es adecuado para los que quieran deshacerse de su grasa y perder peso.",
+        "details_4":"Este programa está diseñado para aquellos que hacen ejercicio solo para mejorar su condición física, no para el culturismo",
+        "title_1": "Explora nuestros",
+        "title_2": "programas",
+        "title_3": "para moldearte",
+        "button": "Únete ahora"
+    }
+}

@@ -68,5 +68,15 @@
         "title_2": "programs",
         "title_3": "to shape you",
         "button": "Join Now"
+    },
+    "reasons":{
+        "title_1":"some reasons",
+        "title_2":"why",
+        "title_3":"choose us?",
+        "title_4":"OUR PARTNERS",
+        "details_1":"OVER 140+ EXPERT COACHS",
+        "details_2":"TRAIN SMARTER AND FASTER THAN BEFORE",
+        "details_3":"1 FREE PROGRAM FOR NEW MEMBER",
+        "details_4":"RELIABLE PARTNERS"
     }
 }

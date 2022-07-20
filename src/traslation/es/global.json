@@ -23,14 +23,13 @@
         "calories": "Calorías Quemadas"
     },
     "join":{
-        "title1": "LISTO PARA",
+        "title1": "¿LISTO PARA",
         "title2": "SUBIR DE NIVEL",
         "title3": "TU CUERPO",
         "title4": "CON NOSOTROS?",
         "email": "Ingrese su correo electronico",
         "button": "Unete Ahora"
     },
-
     "plans":{
         "title1": "LISTO PARA EMPEZAR",
         "title2": "TU VIAJE",
@@ -55,9 +54,7 @@
         },
         "benefits": "Ver más beneficios ->",
         "button":"Únete Ahora"
-
     },
-
     "programs": {
         "heading_1": "Entrenamiento de Fuerza",
         "heading_2": "Entrenamiento de Cardio",
@@ -71,5 +68,15 @@
         "title_2": "programas",
         "title_3": "para moldearte",
         "button": "Únete ahora"
+    },
+    "reasons":{
+        "title_1":"Algunos Motivos",
+        "title_2":"¿Por Que",
+        "title_3":"Elegirnos?",
+        "title_4":"NUESTROS SOCIOS",
+        "details_1":"MÁS DE 140 ENTRENADORES EXPERTOS",
+        "details_2":"ENTRENA MÁS INTELIGENTE Y MÁS RÁPIDO QUE ANTES",
+        "details_3":"1 PROGRAMA GRATIS PARA NUEVO MIEMBRO",
+        "details_4":"SOCIOS CONFIABLES"
     }
 }

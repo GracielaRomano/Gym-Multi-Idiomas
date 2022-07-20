@@ -78,5 +78,19 @@
         "details_2":"TRAIN SMARTER AND FASTER THAN BEFORE",
         "details_3":"1 FREE PROGRAM FOR NEW MEMBER",
         "details_4":"RELIABLE PARTNERS"
+    },
+    "testimonials":{
+        "title_1":"Testimonials",
+        "title_2":"What they",
+        "title_3":"say about us",
+        "review_1":"I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
+        "review_2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint" ,
+        "review_3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem",
+        "name_1": "MATHEW HENDRICKSON",
+        "name_2": "JOHN KEVIN",
+        "name_3": "FRANKLIN",
+        "status_1": "ENTREPRENEUR",
+        "status_2": "COACH",
+        "status_3": "CUSTOMER"
     }
 }

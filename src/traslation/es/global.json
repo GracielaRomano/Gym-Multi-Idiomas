@@ -78,5 +78,19 @@
         "details_2":"ENTRENA MÁS INTELIGENTE Y MÁS RÁPIDO QUE ANTES",
         "details_3":"1 PROGRAMA GRATIS PARA NUEVO MIEMBRO",
         "details_4":"SOCIOS CONFIABLES"
+    },
+    "testimonials":{
+        "title_1":"Testimonios",
+        "title_2":"Lo que ellos",
+        "title_3":"dicen sobre nosotros",
+        "review_1":"¡Tomé la decisión correcta al elegir el Fitclub y al elegir el plan y el programa correctos ya logré mi cuerpo ideal!",
+        "review_2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint" ,
+        "review_3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem",
+        "name_1": "MATHEW HENDRICKSON",
+        "name_2": "JOHN KEVIN",
+        "name_3": "FRANKLIN",
+        "status_1": "EMPRENDEDOR",
+        "status_2": "ENTRENADOR",
+        "status_3": "CLIENTE"
     }
 }

@@ -70,11 +70,10 @@ const Header = () => {
         </li>
       </ul>
       )}
-      <button onClick={()=> i18n.changeLanguage("es")}>ES</button>
-      <button onClick={()=> i18n.changeLanguage("en")}>EN</button>
     </div>
     
   )
+  
 }
 
 export default Header

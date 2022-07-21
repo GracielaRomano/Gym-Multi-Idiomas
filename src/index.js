@@ -8,15 +8,22 @@ import global_en from './traslation/en/global.json';
 import global_es from './traslation/es/global.json';
 
 i18next.init({
-    interpolation:{escapeValue:false},
-    lng:"en",
+   // interpolation:{escapeValue:false},
+   // lng:"en",
     resources:{
         es:{
             global: global_es
+            
         },
         en:{
             global: global_en
+            
         },
+    },
+    fallbackLng: "en",
+    detection: {
+      order: ['htmlTag', 'cookie', 'localStorage', 'path', 'subdomain'],
+      caches:['cookie'],
     },
 });
 

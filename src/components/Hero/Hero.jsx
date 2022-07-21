@@ -5,6 +5,8 @@ import hero_image from '../../assets/hero_image.png';
 import hero_image_back from '../../assets/hero_image_back.png';
 import Heart from '../../assets/heart.png';
 import Calories from '../../assets/calories.png';
+import es from '../../assets/spain.png';
+import en from '../../assets/british.png'
 import NumberCounter from 'number-counter'
 import {motion} from 'framer-motion'
 import { useTranslation } from 'react-i18next'
@@ -73,6 +75,10 @@ const Hero = () => {
             </div>
          </div>
          <div className='right-h'>
+         <div className="banderas">
+					<button onClick={() => i18n.changeLanguage("es")}><img src={es} alt=""/></button>
+					<button onClick={() => i18n.changeLanguage("en")}><img src={en} alt=""/></button>
+				</div>
             <button className='btn'>{t("hero.buttons3")}</button>
 
             <motion.div

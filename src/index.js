@@ -7,25 +7,29 @@ import i18next from 'i18next';
 import global_en from './traslation/en/global.json';
 import global_es from './traslation/es/global.json';
 
+
+const lang = localStorage.getItem('lang');
+let  languageForDefault = 'en'
+
+if ((lang) && (lang==='es' || lang==='en')) {
+    languageForDefault = lang
+}
+
 i18next.init({
-   // interpolation:{escapeValue:false},
-   // lng:"en",
+    interpolation:{escapeValue:false},
+    lng: languageForDefault,
     resources:{
         es:{
             global: global_es
-            
         },
         en:{
             global: global_en
-            
         },
     },
-    fallbackLng: "en",
-    detection: {
-      order: ['htmlTag', 'cookie', 'localStorage', 'path', 'subdomain'],
-      caches:['cookie'],
-    },
+    
 });
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

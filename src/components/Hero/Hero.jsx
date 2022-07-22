@@ -16,6 +16,12 @@ const Hero = () => {
    const transition = {type: 'spring', duration: 3}
    const mobile = window.innerWidth<=768 ? true: false;
    const [t, i18n] = useTranslation("global")
+
+   const traducir = (newLang) => {
+      i18n.changeLanguage(newLang)
+      localStorage.setItem("lang", newLang)
+    };
+
    return (
      <div className='hero' id='home'>
       <div className="blur hero-blur"></div>
@@ -76,8 +82,8 @@ const Hero = () => {
          </div>
          <div className='right-h'>
          <div className="banderas">
-					<button onClick={() => i18n.changeLanguage("es")}><img src={es} alt=""/></button>
-					<button onClick={() => i18n.changeLanguage("en")}><img src={en} alt=""/></button>
+					<button onClick={() => traducir("es")}><img src={es} alt=""/></button>
+					<button onClick={() => traducir("en")}><img src={en} alt=""/></button>
 				</div>
             <button className='btn'>{t("hero.buttons3")}</button>
 

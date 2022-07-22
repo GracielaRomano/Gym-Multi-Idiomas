@@ -1,0 +1,35 @@
+.flag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banderas button {
+	border: none;
+	cursor: pointer;
+	background: none;
+    align-items: center;
+	display: inline-block;
+	width: 40px;
+	margin-left: 10px;
+    position: relative;
+    right: 0rem;
+    top: 0.5rem;
+    left: 80rem;
+    margin-bottom: 0rem;
+}
+.banderas button img {
+	width: 100%;
+}
+.banderas button :hover{
+    border-bottom: 2px solid white;
+}
+@media screen and (max-width: 768px){
+    .flag{
+        flex-direction: column;
+    }
+    .banderas button{
+        left: 12rem;
+        
+    }
+
+}

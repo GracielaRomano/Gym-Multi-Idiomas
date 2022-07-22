@@ -1,4 +1,5 @@
 import './App.css'
+import Flags from './components/Flags/Flags';
 import Hero from './components/Hero/Hero'
 import Programs from './components/Programs/Programs';
 import Reasons from './components/Reasons/Reasons';
@@ -10,6 +11,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
+          <Flags/>
           <Hero/>
           <Programs/>
           <Reasons/>

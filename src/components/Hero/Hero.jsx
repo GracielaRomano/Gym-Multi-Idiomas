@@ -5,8 +5,6 @@ import hero_image from '../../assets/hero_image.png';
 import hero_image_back from '../../assets/hero_image_back.png';
 import Heart from '../../assets/heart.png';
 import Calories from '../../assets/calories.png';
-import es from '../../assets/spain.png';
-import en from '../../assets/british.png'
 import NumberCounter from 'number-counter'
 import {motion} from 'framer-motion'
 import { useTranslation } from 'react-i18next'
@@ -17,11 +15,7 @@ const Hero = () => {
    const mobile = window.innerWidth<=768 ? true: false;
    const [t, i18n] = useTranslation("global")
 
-   const traducir = (newLang) => {
-      i18n.changeLanguage(newLang)
-      localStorage.setItem("lang", newLang)
-    };
-
+   
    return (
      <div className='hero' id='home'>
       <div className="blur hero-blur"></div>
@@ -81,10 +75,7 @@ const Hero = () => {
             </div>
          </div>
          <div className='right-h'>
-         <div className="banderas">
-					<button onClick={() => traducir("es")}><img src={es} alt=""/></button>
-					<button onClick={() => traducir("en")}><img src={en} alt=""/></button>
-				</div>
+         
             <button className='btn'>{t("hero.buttons3")}</button>
 
             <motion.div
